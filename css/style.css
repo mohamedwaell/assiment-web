@@ -1,0 +1,56 @@
+body{
+    direction: rtl;
+}
+.btn-navbar{
+    background-color: #4E342E;
+}
+.imgnavbar{
+    width: 201px;
+    height: 59px;
+}
+.col-sm-12{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btn-btn{
+    background-color: #4E342E;
+    width: 150px;
+}
+.btn-btn:hover{
+    background-color: #6e4e47;
+}
+.products{
+    background-color: #EADDCE;
+}
+.main-title{
+    color: #271F15;
+    font-size: 24px;
+}
+.slider{
+    direction:ltr;
+}
+/* landing page */
+.landing-page .container{
+    height: 100vh;
+    background-image: url(../images/landing-page.peg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.landing-page .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.landing-page .card{
+    background-color: transparent !important;
+    
+}
+
+
+
